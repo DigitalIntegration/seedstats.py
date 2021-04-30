@@ -1,1 +1,3 @@
-# seedstats.py
+#Overview 
+
+Seedstats.py generates a CSV report 
