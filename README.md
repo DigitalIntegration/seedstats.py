@@ -29,5 +29,9 @@ You will need to open *seedstats_config.py* with an editor and add your Archive-
 
 # Usage
 
+Basic usage is:
 
+seedstats.py "string match"
+  
+  
 
