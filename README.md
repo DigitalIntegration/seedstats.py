@@ -1,6 +1,6 @@
 # Intro
 
-Seedstats.py retrieves data from the Archive-It Partner Data API. It generates a CSV report on the crawling activity for one or more seed URLs based on a string match. The report includes:
+Seedstats.py retrieves and proesses seed data from the Archive-It Partner Data API. It generates a CSV report on the crawling activity for one or more seed URLs based on a string match. The report includes:
 
 - The seed ID
 - Number of crawls for the seed
@@ -9,6 +9,8 @@ Seedstats.py retrieves data from the Archive-It Partner Data API. It generates a
 - Date of first crawl
 - Date of last crawl
 - Total data collected
+
+The most useful field in most cases is "Total data collected," which is not easily accessible through the Archive-It web application.
 
 
 # Requirements
