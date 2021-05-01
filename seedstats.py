@@ -11,7 +11,7 @@ import argparse
 # Import the Archive-It username and pwd + API URLs from config file.
 # Archive-It username and pwd are required for authentication by the Data API.
 # Username and pwd will need to be set before running this script
-from get_domain_stats_config import *
+from seedstats_config import *
 
 
 class Data():
