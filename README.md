@@ -53,7 +53,7 @@ To specify the collection number, use the -c flag:
 
 To specify the output path, use the -o flag (by default, it will save to the script folder): 
 
-`seedstats.py "string match" -o path/to/folder/`
+`seedstats.py "string match" -o /path/to/folder/`
 
 # Best Practises
 
