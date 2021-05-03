@@ -38,7 +38,10 @@ You will need to open *seedstats_config.py* with an editor and add your Archive-
 
 `seedstats.py "string match"`
 
-E.g. `seedstats.py "instagram.com"` will match any seeds matching "instagram.com".
+E.g., to collect stats on any seed matching "instagram.com," use:
+
+`seedstats.py "instagram.com"` 
+
 
 ### Options
 
@@ -56,9 +59,12 @@ To specify the output path, use the -o flag (by default, it will save to the scr
 
 The script makes multiple API requests, and can take a while to run if your input string matches multiple seeds, or if your seeds have an extensive crawl history. To speed things up, be as specific as possible with your search string, and specify a collection number.
 
-If the script stops abruptly, try running it again. The API pages occasionally become unavailable, which will cause errors.
+If the script stops abruptly, try running it again. The API pages occasionally become unavailable, which will cause errors. Improved error handling could be added to a future version.
 
+# Future Work
 
+- Restricting the report by crawl date range would be useful (-d option flag).
+- Improved error handling for data retrieval (connection drops, json load problems, etc.)  
 
 
 
