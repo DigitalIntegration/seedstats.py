@@ -183,7 +183,7 @@ def get_crawl_data_for_each_seed(str_match,targ_coll,f_path):
 
 				write_row_to_csv(this_row,f_path)
 		except:
-			print('there is a problem with ' + seed)
+			print('there is a problem with ' + seed[1])
 			except_row = [seed[1],seed[0],'error','error','error','error','error','error']
 			write_row_to_csv(except_row)
 
